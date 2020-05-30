@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+    </head>
+    <body>
+        <h1>Welcome to a Photo and a Cat Fact</h1>
+
+
+        <form action="search" method="get">
+            <label for="query">Search</label>
+            <input type="text" id="query" name="query">
+            <br>
+            <label for="color">Color</label>
+            <select id="color" name="color">
+                <option value="default">No Filter</option>
+                <option value="black_and_white">Black and White</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+                <option value="red">Red</option>
+                <option value="purple">Purple</option>
+                <option value="magenta">Magenta</option>
+                <option value="green">Green</option>
+                <option value="teal">Teal</option>
+                <option value="blue">Blue</option>
+              </select>
+
+              <br>
+              <h3>OR</h3>
+
+              <label for="random">Random Photo</label>
+              <input type="checkbox" id="random" name="random" value="random">
+              <br>
+              <input type="submit" value="GET PHOTO AND CAT FACT">
+        </form>
+
+
+
+
+
+    </body>
+</html>
